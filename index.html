@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation World</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background: #eef2ff;
+        }
+
+        h1 {
+            background: navy;
+            color: white;
+            padding: 20px;
+        }
+
+        .ball {
+            width: 60px;
+            height: 60px;
+            background: orange;
+            border-radius: 50%;
+            margin: 40px auto;
+            animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+            to {
+                transform: translateY(-30px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation World</h1>
+    <h2>Welcome to My Website!</h2>
+    <p>My College Animation Project</p>
+
+    <h3>Moving Ball Animation</h3>
+    <div class="ball"></div>
+
+    <p>Created using HTML and CSS.</p>
+</body>
+</html>
